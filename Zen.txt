@@ -16,4 +16,5 @@ Zen of Python!!!
 14.
 15.Now is better than never
 16.
+38.Namespaces are one honking great idea -- let's do more of those!Beautiful is better than ugly.
 39.Explicit is better than implicit.
