@@ -16,5 +16,6 @@ Zen of Python!!!
 14.
 15.Now is better than never
 16.
-43.Sparse is better than dense.
 39.Explicit is better than implicit.
+43.Sparse is better than dense.
+
