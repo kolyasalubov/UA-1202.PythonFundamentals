@@ -17,6 +17,7 @@ Zen of Python!!!
 15. Now is better than never
 16. 
 24. Flat is better than nested.
+27.Special cases aren't special enough to break the rules.
 39. Explicit is better than implicit.
 43. Sparse is better than dense.
 
