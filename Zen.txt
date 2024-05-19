@@ -1,22 +1,22 @@
 Zen of Python!!!
 
-1.
-2.
-3.
+1. 
+2. Explicit is better than implicit.
+3. 
 4. Complex is better than complicated.
-5.Flat is better than nested.
-6.
-7.
-8.
-9.Although practicality beats purity.
-10.
-11.
-12.In the face of ambiguity, refuse the temptation to guess.
-13.
-14.
-15.Now is better than never
-16.
-24.Flat is better than nested.
-39.Explicit is better than implicit.
-43.Sparse is better than dense.
-
+5. Flat is better than nested.
+6. 
+7. 
+8. 
+9. Although practicality beats purity.
+10. 
+11. 
+12. In the face of ambiguity, refuse the temptation to guess.
+13. 
+14. 
+15. Now is better than never
+16. 
+20. Beautiful is better than ugly.
+24. Flat is better than nested.
+39. Explicit is better than implicit.
+43. Sparse is better than dense.
