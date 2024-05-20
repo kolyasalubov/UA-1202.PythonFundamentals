@@ -22,3 +22,5 @@ Zen of Python!!!
 27.Special cases aren't special enough to break the rules.
 39. Explicit is better than implicit.
 43. Sparse is better than dense.
+
+44.Readability counts.
