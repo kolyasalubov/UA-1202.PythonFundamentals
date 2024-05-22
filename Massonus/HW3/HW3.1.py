@@ -56,41 +56,13 @@ zen = """1.Beautiful is better than ugly.
 56.Namespaces are one honking great idea -- let's do more of those!"""
 
 print("-----------------------------------------------")
-print("1:")
 print("Count \"better\":", zen.count("better"))
 print("Count \"never\":", zen.count("never"))
 print("Count \"is\":", zen.count("is"))
+print("-----------------------------------------------")
 print(zen.upper())
 
-print("-----------------------------------------------")
+print("\n-----------------------------------------------\n")
 
 zen = zen.replace('i', '&')
 print(zen)
-
-print("-----------------------------------------------")
-print("2:")
-number = input("Input a four-digit number: ")
-numbers = list(map(int, number))
-result = numbers[0] * numbers[1] * numbers[2] * numbers[3]
-print("Product of your number:", result)
-
-reverse = int(number[::-1])
-print("Reverse:", reverse)
-
-numbers = sorted(numbers, reverse=False)
-sorted_numbers = int(str(numbers[0]) + str(numbers[1]) + str(numbers[2]) + str(numbers[3]))
-
-print("Reversed sort:", sorted_numbers)
-
-print("-----------------------------------------------")
-print("3:")
-
-a = 23
-b = 45
-print("a =", a, "b=", b)
-
-a += b
-b = a - b
-a = a - b
-
-print("a =", a, "b=", b)
