@@ -10,5 +10,4 @@ print("Your integer numbers are: ", numbers)
 for number in numbers:
     numbers[numbers.index(number)] = float(number)
 
-print("Float numbers", numbers)
-
+print("Float numbers: ", numbers)

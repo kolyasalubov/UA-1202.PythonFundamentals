@@ -1,10 +1,10 @@
 until = int(input("Enter a number: "))
 
-f1 = 1
-f2 = 1
-print(f1, f2, end=" ")
+previous_number = 1
+next_number = 1
+print(previous_number, next_number, end=" ")
 
-while f2 < until:
-    f1, f2 = f2, f1 + f2
-    print(f2, end=" ")
+while next_number < until:
+    previous_number, next_number = next_number, previous_number + next_number
+    print(next_number, end=" ")
     until -= 1
