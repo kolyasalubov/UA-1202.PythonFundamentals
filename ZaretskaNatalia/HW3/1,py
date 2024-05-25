@@ -1,1 +1,19 @@
-print("program1")
+#got this from stackoverflow and just love the beauty although don't really understand
+import this
+import codecs
+
+zen = codecs.encode(this.s, 'rot13')
+######################################################################################
+
+# find the number of occurrences of the word "better"
+amount_of_better = zen.count("better")
+# find the number of occurrences of the word "never"
+amount_of_never = zen.count("never")
+# find the number of occurrences of the word "is"
+amount_of_is = zen.count("is")
+
+# calculations output
+print("")
+print('The number of occurrences of the word "better" is: ', amount_of_better)
+print('The number of occurrences of the word "never" is: ', amount_of_never)
+print('The number of occurrences of the word "is" is: ', amount_of_is)
