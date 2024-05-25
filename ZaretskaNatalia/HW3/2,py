@@ -1,1 +1,15 @@
-print("program2")
+number = str(input("enter a 4-digit natural number: "))
+
+# find the product of the digits of the number
+number_product = 1
+for i in number: 
+    number_product = number_product * int(i)
+print("The product of the digits of the number is: ", number_product)
+
+# write the reversed_number
+reversed_number = number[::-1]
+print("The reversed number is: ", reversed_number)
+
+# sort the digits in acsending order
+number_asc = "".join(sorted(number))
+print("The digits in acsending order are: ", number_asc)
