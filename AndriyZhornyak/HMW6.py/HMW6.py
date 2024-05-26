@@ -13,9 +13,9 @@ print("Numbers divivsble by 2:",list1)
 print("Numbers divivsble by 3:",list2)
 print("Numbers are not divivsble by 2 and 3:",list3)
 # task2
-# def login_check(number):
-#     while number != "First"
-#          number = (input("Try again: "))
-#     print("Welcome",end=' ')
-#     return number
-# print(login_check(input("Enter login: ")))
+ def login_check(number):
+     while number != "First"
+          number = (input("Try again: "))
+     print("Welcome",end=' ')
+     return number
+ print(login_check(input("Enter login: ")))
