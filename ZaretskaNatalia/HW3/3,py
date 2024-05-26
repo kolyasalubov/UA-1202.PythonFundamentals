@@ -1,1 +1,8 @@
-print("program3")
+# interchange the values oh 2 variables
+
+var1 = "value1"
+var2 = "value2"
+
+var1, var2 = var2, var1
+
+print("var1 = " ,var1, "\nvar2 = " ,var2)
