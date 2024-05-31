@@ -13,7 +13,7 @@ def divisible_by2(list_param):
 def divisible_by3(list_param):
     result = []
     for number in list_param:
-        if number % 3 == 0:
+        if number % 3 == 0 and number % 2 != 0:
             result.append(number)
     return result
 
