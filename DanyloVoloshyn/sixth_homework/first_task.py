@@ -1,4 +1,3 @@
-# number_lst = [2, 7, 1, 13, 74, 66, 27, 92, 38, 54]
 number_lst = list(range(1, 11))
 
 even_lst = []
