@@ -3,8 +3,12 @@ def characters_calculator(string):
 
     string = string.lower()
     result = {}
+
     for i in string:
-        result.update({i: string.count(i)})
+        if i in result:
+            continue
+        else:
+            result.update({i: string.count(i)})
 
     return result
 
