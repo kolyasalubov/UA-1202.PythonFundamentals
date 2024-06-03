@@ -1,8 +1,7 @@
 from pyowm import OWM
+from config import KEY
 
-API_KEY = 'ef2206ff5da67de63306d0b143e20872'
-
-owm = OWM(API_KEY)
+owm = OWM(KEY)
 mgr = owm.weather_manager()
 
 
