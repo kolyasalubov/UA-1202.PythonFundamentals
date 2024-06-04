@@ -1,9 +1,9 @@
 # Task1
-# from Package1 import *
-# print(list(filter(lambda str: not ("__" in str), dir())))
+from Package1 import *
+print(list(filter(lambda str: not ("__" in str), dir())))
 # Task2
-# from Package1.validation import *
-# print(validation_code)
+from Package1.validation import *
+print(validation_code)
 # Task3
 from Package1.calculation import *
 user_choice = input("1-place_triangle,2-place_rectangle,3-place_circle: ")
