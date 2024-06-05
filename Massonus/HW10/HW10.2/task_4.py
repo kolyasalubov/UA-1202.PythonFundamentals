@@ -3,6 +3,3 @@ class Person():
         self.name = name
         self.age = age
         self.info = f"{name}s age is {age}"
-
-
-person = Person("john", 25)
