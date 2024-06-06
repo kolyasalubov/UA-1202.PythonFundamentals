@@ -1,4 +1,7 @@
+# Imports for tasks
 import random
+import math
+import re
 
 
 # First Task
@@ -64,3 +67,55 @@ for i in range(4):
     name, age = names[i], ages[i]
     person = Person(name, age)
     print(person.info)
+
+
+# Fifth Task
+class Sphere(object):
+    def __init__(self, radius, mass):
+        self.radius = float(radius)
+        self.mass = float(mass)
+
+    def get_radius(self):
+        return self.radius
+
+    def get_mass(self):
+        return self.mass
+
+    def get_volume(self):
+        return round((4/3) * math.pi * self.radius ** 3, 5)
+
+    def get_surface_area(self):
+        return round(4 * math.pi * self.radius ** 2, 5)
+
+    def get_density(self):
+        volume = (4/3) * math.pi * self.radius ** 3
+        return round(self.mass / volume, 5)
+
+
+print("\nFifth task:")
+ball = Sphere(2, 50)
+print(ball.get_radius(),        #->2
+      ball.get_mass(),          #->50
+      ball.get_volume(),        #->33.51032
+      ball.get_surface_area(),  #->50.26548
+      ball.get_density())       #->1.49208
+
+
+# Sixth Task
+def class_name_changer(cls, new_name):
+    if re.match("^[A-Za-z0-9]+$", new_name) and new_name[0].isupper():
+        cls.__name__ = new_name
+        return cls
+    else:
+        raise ValueError("Invalid class name. It must be alphanumeric and start with an uppercase letter.")
+
+
+class MyClass:
+    pass
+
+
+UsefulClass = class_name_changer(MyClass, "UsefulClass")
+print(UsefulClass.__name__)  # 'UsefulClass'
+
+SecondUsefulClass = class_name_changer(UsefulClass, "SecondUsefulClass")
+print(SecondUsefulClass.__name__)  # 'SecondUsefulClass'
