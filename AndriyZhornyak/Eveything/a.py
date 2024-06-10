@@ -66,3 +66,13 @@
 #         sum+=int(digit)
 #     return sum/len(numbers_str)
 # print(mean(12345432))
+# my_list = [lambda x: x**2,
+#            lambda x: x**3,
+#            lambda x: x**4]
+
+# for item in my_list:
+#     print(item(5))
+# def output_param(x,y,z):
+#       print(x,y,z)
+# my_tuple = (1,2,3)
+# output_param(*my_tuple)
